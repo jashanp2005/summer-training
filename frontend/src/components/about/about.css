@@ -1,0 +1,50 @@
+/* aboutUs.css */
+
+.mainContent.aboutUs {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .aboutUs section {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .aboutUsContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .aboutUsImage {
+    flex: 1;
+    margin-left: 20px; /* Adjust margin as needed */
+  }
+  
+  .aboutUsImage img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .aboutUsText {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .aboutUs h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #003580;
+  }
+  
+  .aboutUs p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  

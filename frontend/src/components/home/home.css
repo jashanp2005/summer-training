@@ -1,0 +1,67 @@
+/* home.css */
+
+.mainContent {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .featuredDestinations, .userReviews, .aboutUs {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .featuredDestinations h2, .userReviews h2, .aboutUs h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #003580;
+  }
+  
+  .destinationsGrid, .reviewsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .destinationCard, .reviewCard {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 250px;
+    text-align: left;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .destinationCard img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .destinationCard h3, .reviewCard h4 {
+    font-size: 18px;
+    color: #003580;
+    margin: 10px;
+  }
+  
+  .reviewCard p {
+    padding: 20px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .reviewCard h4 {
+    margin: 0;
+    padding: 0 20px 20px;
+  }
+  
+  .aboutUs p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #333;
+  }
+  
